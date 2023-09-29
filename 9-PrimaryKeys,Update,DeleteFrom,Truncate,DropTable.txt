@@ -1,0 +1,33 @@
+1.
+CREATE TABLE CUSTOMERS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+email VARCHAR (150),
+phone_number INT
+);
+
+2.
+INSERT INTO CUSTOMERS(first_name,last_name,email)
+VALUES 
+('Claudio','Caporaso','claudiocaporaso1998@gmail.com'),
+('Giacomo','Rossi','claudiocaporaso1998@gmail.com'),
+('Giuseppe','Venditti','giuseppevenditti@gmail.com')
+;
+
+3.
+UPDATE CUSTOMERS  #modifico l'email al custumers "Giacomo Rossi"
+SET email = 'giacomorossi1960@hotmail.it'
+WHERE ID = 2;
+
+4.
+DELETE FROM CUSTOMERS
+WHERE ID = 3;
+
+5.
+DELETE FROM CUSTOMERS;
+
+6.
+customer_id
+
+7.

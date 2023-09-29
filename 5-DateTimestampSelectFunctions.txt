@@ -1,0 +1,27 @@
+1.
+SELECT
+
+CONCAT(COLUMN1, COLUMN2) AS CONCAT_CASE,  # Unisce due tabelle.
+ 
+LOWER(COLUMN) AS LOWER_CASE,  # Scrive tutti gli elementi nella colonna in 'minuscolo'.
+ 
+UPPER(COLUMN) AS UPPER_CASE,  # Scrive tutti gli elementi nella colonna in 'MAIUSCOLO'.
+ 
+TRIM(COLUMN) AS TRIM_CASE,  # Elimina lo spazio all'inizio o alla fine della stringa.
+ 
+LENGTH(COLUMN) AS LENGTH_CASE,  # Conta la lunghezza totale della stringa, conta anche gli spazi vuoti.
+ 
+SUBSTRING(COLUMN, START, LENGTH) AS SUBSTRING_CASE,  #Taglia la stringa a tuo piacimento.
+ 
+ROUND(COLUMN, DECIMAL_PLACES) AS ROUND_CASE,  # Arrotonda un valore numerico. Esempio: 8.23 = 8.
+ 
+DATE_ADD(COLUMN, INTERVAL EXPRESSION UNIT) AS DATEADD_CASE,  # Aggiunge una quantità specifica del tempo.
+ 
+DATE_SUB(COLUMN, INTERVAL EXPRESSION UNIT) AS DATESUB_CASE,  # Sottrae una quantità specifica del tempo.
+ 
+FORMAT(COLUMN, FORMAT_STRING)  # Formatta valori di data e ora in un formato specifico: 'yyyy-MM-dd' , 'dddd, MMMM dd, yyyy' , 'M/d/yyyy' , ecc...
+
+FROM TABLE;
+
+
+
