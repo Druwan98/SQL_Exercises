@@ -28,6 +28,14 @@ WHERE ID = 3;
 DELETE FROM CUSTOMERS;
 
 6.
-customer_id
+customer_id INT NOT NULL AUTO_INCREMENT,
 
 7.
+product_name VARCHAR(255) NOT NULL,
+
+8.
+order_id INT NOT NULL AUTO_INCREMENT,
+
+9.
+order_id INT NOT NULL AUTO_INCREMENT,
+
