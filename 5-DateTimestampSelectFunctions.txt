@@ -23,5 +23,9 @@ FORMAT(COLUMN, FORMAT_STRING)  # Formatta valori di data e ora in un formato spe
 
 FROM TABLE;
 
+2.
+SELECT DATE_SUB(DATE_SUB(NOW(), INTERVAL 680 DAY),INTERVAL 23 YEAR) AS BIRTHDAY_DATE;
+
+
 
 
